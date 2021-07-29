@@ -444,6 +444,7 @@ span.Consulting {
 button.btn-lwt {
   background-color: #28c76f;
   color: #ffffff;
+  border-color:#28c76f ;
   padding: 18px 51px;
   border-radius: 3px;
   display: flex;
@@ -634,6 +635,7 @@ button#Quote {
   color: white;
   background-color: #28c76f;
   padding: 1.2em 1.8em;
+  border-color:#28c76f ;
   border-radius: 3px;
   display: flex;
   flex-flow: row nowrap;
@@ -645,10 +647,101 @@ button#Quote {
   line-height: 1;
 }
 
+ /* footer part */
 footer#footer {
-
     background-color: #eaeae8;
-    padding-top: 9rem;
-    padding-bottom: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+   
 
+}
+p.Subscribe {
+  color: #182028;
+  font-style: normal;
+  font-family: "Spartan",Arial,Helvetica,sans-serif;
+  font-size: 2.125rem;
+  line-height: 1.3;
+  letter-spacing: 2px;
+}
+.container-content{
+  max-width: 450px;
+    display: flex;
+    width: 100%;
+}
+
+input[type="email"] {
+  font: inherit;
+  border: white;
+  flex: 1 0 87%;
+  position: relative;
+  font-size: 19px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 3px;
+  padding: 11px;
+}
+input[type="submit"] {
+  border: solid 2px white;
+  background-color: white;
+  font-family: "Nunito Sans",Arial,Helvetica,sans-serif;
+  color: #28c76f !important;
+  font-weight: 600;
+  box-shadow: 1 0 0 4em #fff inset;
+  border-top-left-radius: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 0;
+  padding: 10px;
+}
+
+.container-footer {
+  padding-top: 47px;
+}
+li.social-blog-heading {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+.social-blog-heading {
+  margin-bottom: 25px;
+}
+.social-blog-heading-0{
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
+.social-link a {
+  color: #111112;
+  background-color: transparent;
+  border: 1px solid #191919;
+  margin: 4px;
+  font-size: 1.316rem;
+  border-radius: 50%;
+  padding: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.social-link{
+  padding-bottom: 20px;
+}
+.footer-head{
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: black;
+  color: white;
+}
+p.left {
+  margin-left: -60px;
+  text-align: center;
+  color: white;
+}
+.right-1{
+  color: white;
+  padding: 23px;
+  margin-left: 322px;
+}
+.right-2{
+  color: white;
+  
 }
