@@ -1,0 +1,488 @@
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Nunito Sans",Arial,Helvetica,sans-serif;
+}
+section.Quote {
+    background: url(../images/hero_about.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffff;
+    }
+  
+
+  /* navbar design*/
+.navbar .navbar-brand img {
+    height: 80px;
+    width: auto;
+    display: block;
+  }
+ 
+  
+  a#navbarDropdown {
+    padding: 23px;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+  }
+  button#click\ me {
+    margin-right: -66px;
+    height: 47px;
+    width: 163px;
+    padding: 6px;
+    margin-top: 22px;
+    color: #fff;
+    box-shadow: 0 0 0 4em #222e41 inset;
+    border: solid 3px #222e41;
+    font-size: 17px;
+    display: flex;  
+    justify-content: center;
+}
+  ul.dropdown-menu.sub-menu.pg {
+    width: 48rem;
+    height: 15rem;
+    position: absolute;
+    left: -29rem;
+    padding: 16px;
+    max-width: auto;
+  }
+  .Blog,
+  .Cases,
+  .Shop {
+    font-size: 22px;
+    margin-top: 4px;
+    margin-left: 26px;
+    color: #48b03d;
+  }
+  ul.dropdown-menu.sub-menu.element {
+    width: 48rem;
+    height: 17rem;
+    position: absolute;
+    left: -34rem;
+    padding: 19px;
+    max-width: auto;
+  }
+  .Base,
+  .Common,
+  .Presentational {
+    font-size: 22px;
+    margin-top: 4px;
+    margin-left: 26px;
+    color: #48b03d;
+  }
+
+  /* header part*/
+  .heading\.h {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    padding-right: 26rem;
+    padding-left: 26rem;
+}
+ 
+h1.h\.p1 span {
+  font-family: 'DM Serif Display', serif;
+  display: block;
+  color:inherit;
+  font-size: 6.10rem;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+span.h\.p2 {
+  font-size: 1.625rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* first-section*/
+.first-section .container {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  
+}
+.fst\.sec\.left-head {
+  margin: 20px;
+  margin-left: -33px;
+  position: relative;
+}
+h3.h\.p3 {
+  color: #9e9f7f;
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+  line-height: 1.5;
+  margin-bottom: 2em;
+  font-family: "Spartan",Arial,Helvetica,sans-serif;
+  
+}
+h3.h\.p4 span {
+  font-family: 'DM Serif Display', serif;
+  display: block;
+  color: inherit;
+  font-size: 3.25rem;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -1px;
+  padding-bottom: 1.5rem;
+}
+button.LEARN {
+  padding: 1.2em;
+  border-color: #9e9f7f;
+  box-shadow: 0 0 0 0 #9e9f7f inset;
+  color: #9e9f7f;
+  background-color: transparent;
+  border: 1px solid #9e9f7f;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Nunito Sans",Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  margin-top: 3rem;
+}
+.fst\.sec\.right-head{
+    box-sizing: border-box;
+    margin: -7px;
+    margin-right: -81px;
+    padding-bottom: 4rem;
+}
+.box {
+  color: #313c4c;
+  
+  border-radius: 82%;
+  margin-left: 3rem;
+  position: relative;
+}
+a.img-1 {
+   height: 135px;
+   display: block;
+   
+}
+h4.box-content {
+  
+  font-family: "Spartan",Arial,Helvetica,sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 28px;
+  padding: .5em 0;
+}
+
+h4.h\.p5 {
+  font-family: 'Spartan';
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.4;
+  letter-spacing: -1px;
+  display: block;
+  color: #534a4a;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+
+p {
+  margin-top: 30px;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: "Spartan",Arial,Helvetica,sans-serif;
+}
+hr:not([size]) {
+  height: 2px;
+  margin-right: 4rem;
+}
+.fst\.sec\.bottom-head {
+  padding: 0rem;
+  margin-left: -2rem;
+  margin-right: -1rem;
+}
+
+
+/*section-2*/
+
+.second-section .container-fluid {
+  background-color: #f7f7f5;
+  padding: 148px;
+}
+
+.right {
+  padding-top: 64px;
+}
+h1.h\.p6 span {
+  font-family: 'DM Serif Display', serif;
+  display: block;
+  font-size: 4.25rem;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #313c4c;
+  padding-bottom: 30px;
+}
+button#OUR\ PROCESS {
+  background-color: #9e9f7e;
+  
+  width: 11rem;
+  height: 62px;
+  color: white;
+  border: 2px solid #9e9f7e;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito Sans",Arial,Helvetica,sans-serif;
+  
+}
+/*section-3*/
+.th-sec-right {
+  padding: 9rem;
+  padding-bottom: 7rem;
+}
+
+.th-sec-img img {
+  width: 598.26px;
+  height: 892px;
+    
+}
+h1.h\.p7 span {
+  font-family: 'DM Serif Display', serif;
+  display: block;
+  font-size: 3.25rem;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #313c4c;
+  padding-bottom: 25px;
+}
+p.p\.p8 {
+  padding-top: 3rem;
+}
+.box-img {
+  text-align: center;
+  margin-left: -2rem;
+ 
+}
+h1.h\.p9 {
+  padding-left: 1rem;
+  font-weight: 700;
+  font-family: "Spartan",Arial,Helvetica,sans-serif;
+  font-size: 2em;
+  
+  text-align: center;
+  color: #313c4c;
+}
+
+h3.box-content {
+  font-weight: 600;
+  font-family: "Spartan",Arial,Helvetica,sans-serif;
+  color: #313c4c;
+  line-height: 1.5em;
+  font-size: 22px;
+}
+
+/*section-4*/
+section.Quote-1 {
+  background: url(../images/slider_1.jpg);
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  color: #ffff;
+  }
+ .container.quote-bg {
+    padding-top: 8rem;
+    margin-right: 13rem;
+    padding-bottom: 8rem;
+}
+span.h\.p12 {
+  font-size: 21px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4;
+ 
+}
+  h1.h\.p10 span {
+    font-family: 'DM Serif Display', serif;
+    display: block;
+    font-size: 3.25rem;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding-bottom: 2rem;
+}
+
+ul.t-s-heading-3 {
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+
+}
+
+.quote-right .fa-check-circle {
+  color: #9e9f7f;
+  margin-right: 10px;
+  width: 5%;
+  height: 9%;
+  
+}
+
+.quote-right li {
+  padding-bottom: 1rem;
+}
+button.MORTGAGE-CALCULATOR {
+  padding: 1.2em;
+  box-shadow: 0 0 0 0 #615142 inset;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Nunito Sans",Arial,Helvetica,sans-serif;
+  margin-top: 2rem;
+}
+
+/*section-5*/
+
+.fifth-section .container-fluid {
+  width: 100%;
+  padding-right: 22px;
+  padding-left: 0px;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  /*padding-bottom: 10rem;*/
+}
+
+/*section-7*/
+.seventh-section .container-fluid {
+  background-color: #f7f7f5;
+  padding: 148px;
+}
+
+h1.h\.p11 span {
+  font-family: 'DM Serif Display', serif;
+  display: block;
+  font-size: 62px;
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #313c4c;
+  padding-bottom: 30px;
+
+}
+
+/*footer-part*/
+
+footer#footer {
+ color: white;
+ background: rgb(41, 40, 40);;
+  padding-top: 8rem;
+  padding-bottom: 1rem;
+  
+ 
+
+}
+p.Subscribe {
+color: white;
+font-style: normal;
+font-family: "Spartan",Arial,Helvetica,sans-serif;
+font-size: 2.125rem;
+line-height: 1.3;
+letter-spacing: 2px;
+}
+.container-content{
+max-width: 450px;
+  display: flex;
+  width: 100%;
+}
+
+
+input[type="email"] {
+font: inherit;
+border: white;
+flex: 1 0 87%;
+position: relative;
+font-size: 19px;
+border-top-left-radius: 3px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 3px;
+padding: 11px;
+color: #b5b69e !important;
+}
+
+input[type="submit"] {
+  border: solid 2px white;
+  background-color: white;
+  font-family: "Nunito Sans",Arial,Helvetica,sans-serif;
+  color: #b5b69e !important;
+  font-weight: 600;
+  box-shadow: 1 0 0 4em #fff inset;
+  border-top-left-radius: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 0;
+  padding: 10px;
+}
+
+
+
+.container-footer {
+padding-top: 47px;
+}
+li.social-blog-heading {
+font-size: 20px;
+font-family: sans-serif;
+margin-bottom: 30px;
+}
+.social-blog-heading {
+margin-bottom: 25px;
+}
+.social-blog-heading-0{
+font-size: 20px;
+font-family: sans-serif;
+margin-bottom: 15px;
+}
+.social-link a {
+color: white;
+background-color: transparent;
+border: 1px solid white;
+margin: 4px;
+font-size: 1.316rem;
+border-radius: 50%;
+padding: 3px;
+padding-left: 7px;
+padding-right: 7px;
+}
+.social-link{
+padding-bottom: 20px;
+}
+
+p.left {
+    margin-left: -37px;
+    text-align: left;
+    color: white;
+}
+.right-1{
+color: white;
+  margin-left: 17rem;
+  padding: 1rem;
+}
+.right-2{
+color: white;
+}
+ul {
+  list-style: none;
+  margin-left: -2rem;
+}
+hr.fotter {
+  margin-left: -3rem;
+  margin-right: 2rem;
+}
