@@ -360,6 +360,39 @@ button.MORTGAGE-CALCULATOR {
   /*padding-bottom: 10rem;*/
 }
 
+/*section-6*/
+section.sixth-section {
+  background: url(../images/background_shapes.png);
+  /*background-attachment: fixed;*/
+  background-position: 50% -94.9773px;
+  background-size: cover;
+  
+  color: #313c4c;
+    background-color: #f7f7f5;
+  }
+  .ss-slid-port {
+    padding-bottom: 8em;
+    padding-top: 8em;
+    align-items: flex-start;
+    /* display: flex; */
+    justify-content: center;
+}
+section.sixth-section .container.quote-bg {
+  /* padding-top: 9rem; */
+  /* margin-right: 13rem; */
+  width: 1000px;
+  max-width: calc(100% - 60px);
+  /* padding-bottom: 8rem; */
+  /* align-items: flex-start; */
+  position: relative;
+}
+.six\.slide-content {
+  text-align: center;
+  display: block;
+ 
+}
+
+
 /*section-7*/
 .seventh-section .container-fluid {
   background-color: #f7f7f5;
